@@ -13,7 +13,7 @@ let s:isabelline = [ '#efeeea', 254 ]
 let s:mummys_tomb = [ '#818e8e', 240 ]
 
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
-let s:p.normal.left = [ [ s:blue_bell, s:raisin_black ], [ s:sandy_brown, s:raisin_black ] ]
+let s:p.normal.left = [ [ s:isabelline, s:raisin_black ], [ s:sandy_brown, s:raisin_black ] ]
 let s:p.normal.right = [ [ s:blue_bell, s:raisin_black ], [ s:sandy_brown, s:raisin_black ] ]
 let s:p.inactive.right = [ [ s:mummys_tomb, s:raisin_black ], [ s:mummys_tomb, s:raisin_black ] ]
 let s:p.inactive.left =  [ [ s:mummys_tomb, s:raisin_black ], [ s:mummys_tomb, s:raisin_black ] ]
