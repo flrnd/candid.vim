@@ -8,7 +8,7 @@ let s:sandy_brown = [ '#f2b065', 179 ]
 let s:vivid_tangerine = [ '#f99c86', 173 ]
 let s:paradise_pink = [ '#e5445f', 168 ]
 let s:blue_bell = [ '#a1a2dd', 180 ]
-let s:turquoise_green = [ '#98ceb', 79 ]
+let s:turquoise_green = [ '#98ceb3', 79 ]
 let s:isabelline = [ '#efeeea', 254 ]
 let s:mummys_tomb = [ '#818e8e', 240 ]
 
