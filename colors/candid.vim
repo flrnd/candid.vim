@@ -121,7 +121,7 @@ call <sid>hi('WildMenu', s:raisin_black, s:isabelline, 'bold', {})
 " {{{
 call <sid>hi('Comment', s:mummys_tomb, s:none, 'italic', {})
 
-call <sid>hi('Constant', s:turquoise_green, s:none, 'none', {})
+call <sid>hi('Constant', s:sandy_brown, s:none, 'none', {})
 call <sid>hi('String', s:turquoise_green, s:none, 'none', {})
 hi link Character Constant
 hi link Number Constant
@@ -191,23 +191,28 @@ call <sid>hi('cssSelectorOp2', s:mummys_tomb, s:none, 'none', {})
 "}}}
 
 " Javascript {{{
+" https://github.com/pangloss/vim-javascript
 call <sid>hi('jsImport', s:paradise_pink, s:none, 'none', {})
 hi link jsExport jsImport
 hi link jsFrom jsImport
 hi link jsExportDefault jsExport
 hi link jsArrowFunction jsImport
-call <sid>hi('jsStorageClass', s:blue_bell, s:none, 'none', {})
-call <sid>hi('jsClassKeyword', s:blue_bell, s:none, 'none', {})
-call <sid>hi('jsExtendsKeyword', s:blue_bell, s:none, 'none', {})
 call <sid>hi('jsThis', s:sandy_brown, s:none, 'none', {})
+" https://github.com/othree/yajs.vim
+hi link javascriptImport jsImport
+hi link javascriptExport jsExport
+call <sid>hi('javascriptMethod', s:sandy_brown, s:none, 'none', {})
 "}}}
 
 " JSX {{{
 " https://github.com/MaxMEllon/vim-jsx-pretty
-call <sid>hi('jsxTagName', s:vivid_tangerine, s:none, 'none', {})
+call <sid>hi('jsxTagName', s:sandy_brown, s:none, 'none', {})
 call <sid>hi('jsxPunct', s:mummys_tomb, s:none, 'none', {})
 call <sid>hi('jsClosePunct', s:mummys_tomb, s:none, 'none', {})
+call <sid>hi('jsxComponentName', s:blue_bell, s:none, 'none', {})
+call <sid>hi('jsxAttrib', s:vivid_tangerine, s:none, 'none', {})
 hi link jsxCloseString jsClosePunct
+
 "}}}
 
 " Golang {{{
