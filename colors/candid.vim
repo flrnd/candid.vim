@@ -66,7 +66,7 @@ call <sid>hi('ColorColumn', s:none, s:tickle_me_pink, 'none', {})
 call <sid>hi('FoldColumn', s:mummys_tomb, s:raisin_black, 'none', {})
 call <sid>hi('SignColumn', s:none, s:raisin_black, 'none', {})
 call <sid>hi('VertSplit', s:mummys_tomb, s:mummys_tomb, 'none', {})
-call <sid>hi('LineNr', s:sandy_brown, s:raisin_black, 'none', {})
+call <sid>hi('LineNr', s:mummys_tomb, s:raisin_black, 'none', {})
 call <sid>hi('CursorLineNr', s:sandy_brown, s:raisin_black, 'none', {})
 
 call <sid>hi('DiffAdd', s:raisin_black, s:turquoise_green, 'none', {})
