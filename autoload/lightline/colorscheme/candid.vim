@@ -4,7 +4,7 @@
 " License: MIT License
 " =============================================================================
 
-let s:raisin_black = [ '#251f28', 232 ]
+let s:raisin_black = [ '#2f343f', 232 ]
 let s:sandy_brown = [ '#f2b065', 179 ]
 let s:blue_bell = [ '#a18bd3', 183 ]
 let s:tickle_me_pink = [ '#fb7da7', 211 ]
