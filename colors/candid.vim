@@ -219,9 +219,9 @@ hi link jsxCloseString jsClosePunct
 call <sid>hi('goDirective', s:sea_serpent, s:none, 'none', {})
 call <sid>hi('goConstants', s:isabelline, s:none, 'none', {})
 call <sid>hi('goDeclaration', s:tickle_me_pink, s:none, 'none', {})
-call <sid>hi('goDeclType', s:mustard, s:none, 'none', {})
-call <sid>hi('goBuiltins', s:mustard, s:none, 'none', {})
-call <sid>hi('goFunctionCall', s:mustard, s:none, 'none', {})
+call <sid>hi('goDeclType', s:tickle_me_pink, s:none, 'none', {})
+call <sid>hi('goBuiltins', s:turquoise_green, s:none, 'none', {})
+call <sid>hi('goFunctionCall', s:blue_bell, s:none, 'none', {})
 call <sid>hi('goVarAssign', s:isabelline, s:none, 'none', {})
 hi link goVarDefs goVarAssign
 "}}}
