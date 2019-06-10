@@ -230,10 +230,10 @@ hi link goVarDefs goVarAssign
 call <sid>hi('markdownCode', s:mustard, s:none, 'none', {})
 hi link markdownCodeBlock markdownCode
 hi link markdownCodeDelimiter markdownCode
-call <sid>hi('markdownHeadingDelimiter', s:mustard, s:none, 'none', {})
+call <sid>hi('markdownHeadingDelimiter', s:blue_bell, s:none, 'none', {})
 call <sid>hi('markdownRule', s:mummys_tomb, s:none, 'none', {})
 call <sid>hi('markdownHeadingRule', s:mummys_tomb, s:none, 'none', {})
-call <sid>hi('markdownH1', s:turquoise_green, s:none, 'none', {})
+call <sid>hi('markdownH1', s:blue_bell, s:none, 'bold', {})
 hi link markdownH2 markdownH1
 hi link markdownH3 markdownH1
 hi link markdownH4 markdownH1
@@ -249,7 +249,7 @@ call <sid>hi('markdownOrdetickle_me_pinkListMarker', s:sea_serpent, s:none, 'non
 call <sid>hi('markdownIdDeclaration', s:sea_serpent, s:none, 'none', {})
 call <sid>hi('markdownLinkText', s:sea_serpent, s:none, 'none', {})
 call <sid>hi('markdownLinkDelimiter', s:mummys_tomb, s:none, 'none', {})
-call <sid>hi('markdownUrl', s:blue_bell, s:none, 'none', {})
+call <sid>hi('markdownUrl', s:mustard, s:none, 'none', {})
 
 "}}}
 
