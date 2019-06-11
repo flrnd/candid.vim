@@ -4,7 +4,7 @@
 " Author:       Florian Prz
 " Repository:   https://github.com/flrnprz/taffy.vim/
 " License:      The MIT License (MIT)
-" Description:  A dark colorscheme inspired by vibrant candy colors
+" Description:  A dark colorscheme with vibrant colors
 
 " Init {{{
 scriptencoding utf-8
