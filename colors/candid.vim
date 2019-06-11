@@ -222,7 +222,6 @@ hi link gitcommitUnmergedArrow gitcommitUnmergedFile
 
 "}}}
 
-
 " vim-signify {{{
 call <sid>hi('SignifySignAdd', s:eucalyptus, s:none, 'none', {})
 call <sid>hi('SignifySignChange', s:mustard, s:none, 'none', {})
@@ -305,8 +304,8 @@ hi link RubyBlockParameterList RubyBlockParameter
 "}}}
 
 " NERDTree {{{
-call <sid>hi('NERDTreeDir', s:eucalyptus, s:none, 'none', {})
-call <sid>hi('NERDTreeDirSlash', s:sea_serpent, s:none, 'none', {})
+call <sid>hi('NERDTreeDir', s:sea_serpent, s:none, 'none', {})
+call <sid>hi('NERDTreeDirSlash', s:mustard, s:none, 'none', {})
 call <sid>hi('NERDTreeFile', s:isabelline, s:none, 'none', {})
 call <sid>hi('NERDTreeExecFile', s:eucalyptus, s:none, 'none', {})
 call <sid>hi('NERDTreeOpenable', s:mustard, s:none, 'none', {})
