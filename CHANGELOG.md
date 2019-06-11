@@ -6,6 +6,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.4.0] - 2019-06-11
+### Changed
+- Green color was very soft, new eucalypt green is brighter.
+- Some html syntax colors were off.
+### Added
+- Ruby syntax
+- Git and vim-signify
+### Fixed
+- Diff colors
+
 ## [0.3.1] - 2019-06-11
 ### Changed
 - New color palette with more vibrant colors.
