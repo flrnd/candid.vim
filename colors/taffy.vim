@@ -1,10 +1,10 @@
 " vim:fdm=marker
 " Vim Color File
-" Name:         candid.vim
-" Description:  A dark theme with vibrant colors
+" Name:         taffy.vim
 " Author:       Florian Prz
-" Repository:   https://github.com/flrnprz/candid.vim/
+" Repository:   https://github.com/flrnprz/taffy.vim/
 " License:      The MIT License (MIT)
+" Description:  A dark colorscheme inspired by vibrant candy colors
 
 " Init {{{
 scriptencoding utf-8
@@ -16,7 +16,7 @@ if exists('syntax_on')
   syntax reset
 endif
 
-let g:colors_name = 'candid'
+let g:colors_name = 'taffy'
 
 " Highlighting function (inspiration from https://github.com/chriskempson/base16-vim)
 fun! <sid>hi(group, fg, bg, attr, sp)

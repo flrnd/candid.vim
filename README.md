@@ -1,20 +1,20 @@
-![candid.vim](https://github.com/flrnprz/candid.vim/blob/master/candid-screen.png)
+![taffy.vim](https://github.com/flrnprz/taffy.vim/blob/master/taffy-screen.png)
 
-# candid.vim
+# taffy.vim
 
-A dark colorscheme with vibrant colors.
+A dark colorscheme inspired by vibrant candy colors.
 
 ## Install
 
-1. Using your plugin manager of choice and placing `flrnprz/candid.vim` in your .vimrc file.
+1. Using your plugin manager of choice and placing `flrnprz/taffy.vim` in your .vimrc file.
    or
 2. clone this directory into your vim/plugged directory
 
 ````vim
 set background=dark
 syntax on
-colorscheme candid
+colorscheme taffy
 
 " Lightline
-let g:lightline = { 'colorscheme': 'candid' }
+let g:lightline = { 'colorscheme': 'taffy' }
 ````
