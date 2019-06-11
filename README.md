@@ -2,7 +2,7 @@
 
 # taffy.vim
 
-A dark colorscheme inspired by vibrant candy colors.
+A dark colorscheme with vibrant colors.
 
 ## Install
 
