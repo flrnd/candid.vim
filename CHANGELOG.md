@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - NERDTree color directory was green instead of blue
 - Wrong JSX tag color
+- Lightline wrong green color
 
 ## [0.4.0] - 2019-06-11
 ### Changed
