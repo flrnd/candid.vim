@@ -246,11 +246,11 @@ hi link javascriptArrowFunc jsArrowFunction
 
 " JSX {{{
 " https://github.com/MaxMEllon/vim-jsx-pretty
-call <sid>hi('jsxTagName', s:eucalyptus, s:none, 'none', {})
+call <sid>hi('jsxTagName', s:blue_bell, s:none, 'none', {})
 call <sid>hi('jsxPunct', s:mummys_tomb, s:none, 'none', {})
 call <sid>hi('jsClosePunct', s:mummys_tomb, s:none, 'none', {})
-call <sid>hi('jsxComponentName', s:sea_serpent, s:none, 'none', {})
-call <sid>hi('jsxAttrib', s:blue_bell, s:none, 'none', {})
+call <sid>hi('jsxComponentName', s:tickle_me_pink, s:none, 'none', {})
+call <sid>hi('jsxAttrib', s:sea_serpent, s:none, 'none', {})
 hi link jsxCloseString jsClosePunct
 
 "}}}
