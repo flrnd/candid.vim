@@ -60,7 +60,7 @@ call <sid>hi('Normal', s:isabelline, s:raisin_black, 'none', {})
 call <sid>hi('Cursor', s:none, s:none, 'inverse', {})
 hi link lCursor Cursor
 hi link CursorIM Cursor
-call <sid>hi('CursorLine', s:raisin_black, s:sea_serpent, 'none', {})
+call <sid>hi('CursorLine', s:raisin_black, s:mummys_tomb, 'none', {})
 call <sid>hi('EndOfBuffer', s:mustard, s:none, 'none', {})
 call <sid>hi('Conceal', s:sea_serpent, s:none, 'none', {})
 call <sid>hi('CursorColumn', s:none, s:sea_serpent, 'none', {})
@@ -90,8 +90,8 @@ call <sid>hi('Folded', s:mummys_tomb, s:none, 'none', {})
 call <sid>hi('IncSearch', s:mustard, s:raisin_black, 'none', {})
 call <sid>hi('Search', s:mustard, s:raisin_black, 'reverse', {})
 
-call <sid>hi('Pmenu', s:raisin_black, s:sea_serpent, 'none', {})
-call <sid>hi('PmenuSel', s:raisin_black, s:mustard, 'none', {})
+call <sid>hi('Pmenu', s:raisin_black, s:mummys_tomb, 'none', {})
+call <sid>hi('PmenuSel', s:raisin_black, s:eucalyptus, 'none', {})
 
 call <sid>hi('Question', s:isabelline, s:raisin_black, 'bold', {})
 call <sid>hi('MatchParen', s:sea_serpent, s:none, 'bold', {})
