@@ -91,7 +91,7 @@ call <sid>hi('IncSearch', s:mustard, s:raisin_black, 'none', {})
 call <sid>hi('Search', s:mustard, s:raisin_black, 'reverse', {})
 
 call <sid>hi('Pmenu', s:raisin_black, s:mustard, 'none', {})
-call <sid>hi('PmenuSel', s:raisin_black, s:mustard, 'bold', {})
+call <sid>hi('PmenuSel', s:raisin_black, s:mustard, 'inverse', {})
 
 call <sid>hi('Question', s:isabelline, s:raisin_black, 'bold', {})
 call <sid>hi('MatchParen', s:sea_serpent, s:none, 'bold', {})
