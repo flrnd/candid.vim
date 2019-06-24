@@ -30,4 +30,4 @@ let s:p.tabline.right = copy(s:p.normal.right)
 let s:p.normal.error = [ [ s:raisin_black, s:tickle_me_pink ] ]
 let s:p.normal.warning = [ [ s:raisin_black, s:mustard ] ]
 
-let g:lightline#colorscheme#taffy#palette = lightline#colorscheme#flatten(s:p)
+let g:lightline#colorscheme#candid#palette = lightline#colorscheme#flatten(s:p)
