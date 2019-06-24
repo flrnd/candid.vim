@@ -1,8 +1,8 @@
 " vim:fdm=marker
 " Vim Color File
-" Name:         taffy.vim
+" Name:         candid.vim
 " Author:       Florian Prz
-" Repository:   https://github.com/flrnprz/taffy.vim/
+" Repository:   https://github.com/flrnprz/candid.vim
 " License:      The MIT License (MIT)
 " Description:  A dark colorscheme with vibrant colors
 
