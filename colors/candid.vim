@@ -16,7 +16,7 @@ if exists('syntax_on')
   syntax reset
 endif
 
-let g:colors_name = 'taffy'
+let g:colors_name = 'candid'
 
 " Highlighting function (inspiration from https://github.com/chriskempson/base16-vim)
 fun! <sid>hi(group, fg, bg, attr, sp)

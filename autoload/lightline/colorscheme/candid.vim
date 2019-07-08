@@ -1,5 +1,5 @@
 " =============================================================================
-" Filename: autoload/lightline/colorscheme/taffy.vim
+" Filename: autoload/lightline/colorscheme/candid.vim
 " Author: Flrn Prz
 " License: MIT License
 " =============================================================================
