@@ -1,4 +1,4 @@
-![candid.vim](https://github.com/flrnprz/taffy.vim/blob/master/candid-screen.png)
+![candid.vim](https://github.com/flrnprz/candid.vim/blob/master/candid-screen.png)
 
 # candid.vim
 
