@@ -47,7 +47,7 @@ let s:raisin_black = {'gui': '#2f343f', 'cterm256': '232'}
 let s:mummys_tomb = {'gui': '#818e8e', 'cterm256': '240'}
 let s:none = {'gui': 'NONE', 'cterm256': 'NONE'}
 let s:visual_black = { 'gui': 'NONE', 'cterm256': 'NONE'}
-
+let s:viridian = { 'gui': '#4C8273', 'cterm256': '224' }
 "}}}
 
 "--------------------
@@ -125,7 +125,7 @@ call <sid>hi('WildMenu', s:raisin_black, s:isabelline, 'bold', {})
 " http://vimdoc.sourceforge.net/htmldoc/syntax.html
 "----------------------------------------------------
 " {{{
-call <sid>hi('Comment', s:mummys_tomb, s:none, 'italic', {})
+call <sid>hi('Comment', s:viridian, s:none, 'italic', {})
 
 call <sid>hi('Constant', s:sea_serpent, s:none, 'none', {})
 call <sid>hi('String', s:mustard, s:none, 'none', {})
@@ -152,7 +152,7 @@ call <sid>hi('Ignore', s:none, s:none, 'none', {})
 
 call <sid>hi('Error', s:tickle_me_pink, s:raisin_black, 'undercurl', {})
 
-call <sid>hi('Todo', s:tickle_me_pink, s:none, 'italic', {})
+call <sid>hi('Todo', s:eucalyptus, s:none, 'italic', {})
 
 "}}}
 
