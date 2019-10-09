@@ -309,9 +309,9 @@ call <sid>hi('rubyInstanceVariable', s:blue_bell, s:none, 'none', {})
 call <sid>hi('rubyInterpolation', s:mustard, s:none, 'none', {})
 call <sid>hi('rubyInterpolationDelimiter', s:eucalyptus, s:none, 'none', {})
 call <sid>hi('rubyStringDelimiter', s:mustard, s:none, 'none', {})
-call <sid>hi('rubySymbol', s:tickle_me_pink, s:none, 'none', {})
+call <sid>hi('rubySymbol', s:eucalyptus, s:none, 'none', {})
 call <sid>hi('rubyDefine', s:tickle_me_pink, s:none, 'none', {})
-call <sid>hi('rubyLambdaOperator', s:tickle_me_pink, s:none, 'none', {})
+call <sid>hi('rubyOperator', s:eucalyptus, s:none, 'none', {})
 "}}}
 
 " NERDTree {{{
