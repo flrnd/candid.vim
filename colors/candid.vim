@@ -90,7 +90,7 @@ call <sid>hi('Folded', s:mummys_tomb, s:none, 'none', {})
 call <sid>hi('IncSearch', s:mustard, s:raisin_black, 'reverse', {})
 call <sid>hi('Search', s:mustard, s:raisin_black, 'reverse', {})
 
-call <sid>hi('Pmenu', s:raisin_black, s:mummys_tomb, 'none', {})
+call <sid>hi('Pmenu', s:isabelline, s:raisin_black, 'none', {})
 call <sid>hi('PmenuSel', s:raisin_black, s:eucalyptus, 'none', {})
 
 call <sid>hi('Question', s:isabelline, s:raisin_black, 'bold', {})
