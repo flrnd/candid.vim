@@ -48,6 +48,7 @@ let s:mummys_tomb = {'gui': '#818e8e', 'cterm256': '240'}
 let s:none = {'gui': 'NONE', 'cterm256': 'NONE'}
 let s:visual_black = { 'gui': 'NONE', 'cterm256': 'NONE'}
 let s:viridian = { 'gui': '#4C8273', 'cterm256': '224' }
+let s:pale_black = { 'gui': '#1c1c1c', 'cterm256': '234' }
 "}}}
 
 "--------------------
@@ -90,7 +91,7 @@ call <sid>hi('Folded', s:mummys_tomb, s:none, 'none', {})
 call <sid>hi('IncSearch', s:mustard, s:raisin_black, 'reverse', {})
 call <sid>hi('Search', s:mustard, s:raisin_black, 'reverse', {})
 
-call <sid>hi('Pmenu', s:isabelline, s:raisin_black, 'none', {})
+call <sid>hi('Pmenu', s:isabelline, s:pale_black, 'none', {})
 call <sid>hi('PmenuSel', s:raisin_black, s:eucalyptus, 'none', {})
 
 call <sid>hi('Question', s:isabelline, s:raisin_black, 'bold', {})
@@ -294,13 +295,23 @@ call <sid>hi('markdownUrl', s:mustard, s:none, 'none', {})
 "}}}
 
 " Ruby {{{
-call <sid>hi('RubyBlockParameter', s:blue_bell, s:none, 'none', {})
-call <sid>hi('RubyClass', s:tickle_me_pink, s:none, 'none', {})
-call <sid>hi('RubyConstant', s:sea_serpent, s:none, 'none', {})
-call <sid>hi('RubyControl', s:tickle_me_pink, s:none, 'none', {})
-call <sid>hi('RubyEscape', s:sea_serpent, s:none, 'none', {})
-hi link RubyBlockParameterList RubyBlockParameter
-
+call <sid>hi('rubyBlockParameter', s:blue_bell, s:none, 'none', {})
+call <sid>hi('rubyClass', s:tickle_me_pink, s:none, 'none', {})
+call <sid>hi('rubyStringEscape', s:tickle_me_pink, s:none, 'none', {})
+"call <sid>hi('rubyConstant', s:sea_serpent, s:none, 'none', {})
+call <sid>hi('rubyControl', s:tickle_me_pink, s:none, 'none', {})
+"call <sid>hi('rubyEscape', s:eucalyptus, s:none, 'none', {})
+hi link rubyBlockParameterList rubyBlockParameter
+call <sid>hi('rubyFunction', s:blue_bell, s:none, 'none', {})
+call <sid>hi('rubyGlobalVariable', s:blue_bell, s:none, 'none', {})
+call <sid>hi('rubyInclude', s:tickle_me_pink, s:none, 'none', {})
+call <sid>hi('rubyInstanceVariable', s:blue_bell, s:none, 'none', {})
+call <sid>hi('rubyInterpolation', s:mustard, s:none, 'none', {})
+call <sid>hi('rubyInterpolationDelimiter', s:eucalyptus, s:none, 'none', {})
+call <sid>hi('rubyStringDelimiter', s:mustard, s:none, 'none', {})
+call <sid>hi('rubySymbol', s:tickle_me_pink, s:none, 'none', {})
+call <sid>hi('rubyDefine', s:tickle_me_pink, s:none, 'none', {})
+call <sid>hi('rubyLambdaOperator', s:tickle_me_pink, s:none, 'none', {})
 "}}}
 
 " NERDTree {{{
