@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.4.4] - 2019-10-09
+
+- Improve ruby syntax
+- Change menu background
+
 ## [0.4.3] - 2019-06-24
 
 - Rebranded again to Candid. taffy doesn't seems to catch up much of atention.
