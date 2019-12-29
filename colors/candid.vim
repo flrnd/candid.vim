@@ -1,8 +1,8 @@
 " vim:fdm=marker
 " Vim Color File
 " Name:         candid.vim
-" Author:       Florian Prz
-" Repository:   https://github.com/flrnprz/candid.vim
+" Author:       Florian Rand
+" Repository:   https://github.com/flrnd/candid.vim
 " License:      The MIT License (MIT)
 " Description:  A dark colorscheme with vibrant colors
 
