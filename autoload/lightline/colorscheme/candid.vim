@@ -1,6 +1,6 @@
 " =============================================================================
 " Filename: autoload/lightline/colorscheme/candid.vim
-" Author: Flrn Prz
+" Author: Florian Rand
 " License: MIT License
 " =============================================================================
 
