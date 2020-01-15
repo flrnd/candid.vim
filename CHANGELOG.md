@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.4.4-1] - 2020-15-01
+
+### Fixed
+
+- jsxBraces now uses punctuation color.
+
 ## [0.4.4] - 2019-10-09
 
 - Improve ruby syntax
