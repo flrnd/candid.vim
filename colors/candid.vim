@@ -253,7 +253,7 @@ call <sid>hi('jsClosePunct', s:mummys_tomb, s:none, 'none', {})
 call <sid>hi('jsxComponentName', s:tickle_me_pink, s:none, 'none', {})
 call <sid>hi('jsxAttrib', s:sea_serpent, s:none, 'none', {})
 hi link jsxCloseString jsClosePunct
-
+hi link jsxBraces jsxPunct
 "}}}
 
 " Golang {{{
