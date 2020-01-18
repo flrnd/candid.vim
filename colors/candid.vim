@@ -313,6 +313,21 @@ call <sid>hi('rubyDefine', s:tickle_me_pink, s:none, 'none', {})
 call <sid>hi('rubyOperator', s:eucalyptus, s:none, 'none', {})
 "}}}
 
+" Typescript {{{
+hi link typescriptImport jsImport
+call <sid>hi('typescriptBraces', s:mummys_tomb, s:none, 'none', {})
+call <sid>hi('typescriptVariable', s:sea_serpent, s:none, 'none', {})
+hi link typescriptParens               typescriptBraces
+hi link typescriptEndColons            typescriptBraces
+hi link typescriptAmbientDeclaration   typescriptImport
+hi link typescriptExport               typescriptImport
+hi link typescriptModule               typescriptImport
+hi link typescriptTry                  typescriptImport
+hi link typescriptExceptions           typescriptImport
+hi link typescriptCastKeyword          typescriptImport
+hi link typescriptDefault              typescriptImport
+" }}}
+
 " NERDTree {{{
 call <sid>hi('NERDTreeDir', s:sea_serpent, s:none, 'none', {})
 call <sid>hi('NERDTreeDirSlash', s:mustard, s:none, 'none', {})
