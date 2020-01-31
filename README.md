@@ -24,11 +24,10 @@ let g:lightline = { 'colorscheme': 'candid' }
 ```
 ## Color customization
 
-Is there any color you don't like? No problem, I got you covered.
-Declare the dictionary `g:candid_color_store` in your .vimrc / init.vim file before `colorscheme candid`:
+For color customization, declare the dictionary `g:candid_color_store` in your .vimrc / init.vim file before `colorscheme candid`:
 
 ```vim
-" Example:
+" Overrides 'black' and 'white' colors.
 let g:candid_color_store = {
     \ "black": {"gui": "#121212", "cterm256": "0"},
     \ "white": {"gui": "#f4f4f4", "cterm256": "255"},
