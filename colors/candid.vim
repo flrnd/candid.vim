@@ -36,26 +36,30 @@ endfun
 "}}}
 
 " colors definition {{{
+let s:colors = candid#GetColors()
 
-let s:tickle_me_pink = {'gui': '#fb7da7', 'cterm256': '168'}
-let s:blue_bell = {'gui': '#a18bd3', 'cterm256': '180'}
-let s:mustard = {'gui': '#ffce5b', 'cterm256': '222'}
-let s:sea_serpent = {'gui': '#50C6D8', 'cterm256': '180'}
-let s:eucalyptus = {'gui': '#2cda9d', 'cterm256': '79'}
-let s:isabelline = {'gui': '#efeeea', 'cterm256': '254'}
-let s:raisin_black = {'gui': '#2f343f', 'cterm256': '232'}
-let s:mummys_tomb = {'gui': '#818e8e', 'cterm256': '240'}
-let s:none = {'gui': 'NONE', 'cterm256': 'NONE'}
-let s:visual_black = { 'gui': 'NONE', 'cterm256': 'NONE'}
-let s:viridian = { 'gui': '#4C8273', 'cterm256': '224' }
-let s:pale_black = { 'gui': '#1c1c1c', 'cterm256': '234' }
+let s:tickle_me_pink = s:colors.red
+let s:blue_bell = s:colors.purple
+let s:mustard = s:colors.yellow
+let s:sea_serpent = s:colors.cyan
+let s:eucalyptus = s:colors.green
+
+let s:isabelline = s:colors.white
+let s:foreground = s:colors.white
+let s:raisin_black = s:colors.black
+let s:background = s:colors.black
+
+let s:mummys_tomb = s:colors.grey
+let s:none = s:colors.none
+let s:viridian = s:colors.comment
+let s:pale_black = s:colors.menu_black
 "}}}
 
 "--------------------
 " Syntax Definitions
 "--------------------
 " <sid>hi(GROUP, FOREGROUND, BACKGROUND, ATTRIBUTE, SPECIAL)
-call <sid>hi('Normal', s:isabelline, s:raisin_black, 'none', {})
+call <sid>hi('Normal', s:foreground, s:background, 'none', {})
 
 " UI {{{
 call <sid>hi('Cursor', s:none, s:none, 'inverse', {})
