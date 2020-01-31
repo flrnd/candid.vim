@@ -52,7 +52,7 @@ let s:background = s:colors.black
 let s:mummys_tomb = s:colors.grey
 let s:none = s:colors.none
 let s:viridian = s:colors.comment
-let s:pale_black = s:colors.menu_black
+let s:pale_black = s:colors.menublack
 "}}}
 
 "--------------------
