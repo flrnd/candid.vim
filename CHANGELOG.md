@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.5.1] - 2020-31-01
+
+- Lightline theme now uses colors from main theme instead of hardcoded.
+
 ## [0.5] - 2020-31-01
 
 ### Feature
