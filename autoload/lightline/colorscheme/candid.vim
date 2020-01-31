@@ -3,15 +3,16 @@
 " Author: Florian Rand
 " License: MIT License
 " =============================================================================
+let s:colors = candid#GetColors()
 
-let s:raisin_black = [ '#2f343f', 232 ]
-let s:mustard = [ '#ffce5b', 222 ]
-let s:blue_bell = [ '#a18bd3', 183 ]
-let s:tickle_me_pink = [ '#fb7da7', 211 ]
-let s:sea_serpent = [ '#50c6d8', 80 ]
-let s:eucalyptus = [ '#2cda9d', 79 ]
-let s:isabelline = [ '#efeeea', 254 ]
-let s:mummys_tomb = [ '#818e8e', 240 ]
+let s:mustard = [ s:colors.yellow.gui, s:colors.yellow.cterm256 ]
+let s:blue_bell = [ s:colors.purple.gui, s:colors.purple.cterm256 ]
+let s:tickle_me_pink = [ s:colors.red.gui, s:colors.red.cterm256 ]
+let s:sea_serpent = [ s:colors.cyan.gui, s:colors.cyan.cterm256 ]
+let s:eucalyptus = [ s:colors.green.gui, s:colors.green.cterm256 ]
+let s:isabelline = [ s:colors.white.gui, s:colors.white.cterm256 ]
+let s:raisin_black = [ s:colors.black.gui, s:colors.black.cterm256 ]
+let s:mummys_tomb = [ s:colors.comment.gui, s:colors.comment.cterm256 ]
 
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 let s:p.normal.left = [ [ s:isabelline, s:raisin_black ], [ s:eucalyptus, s:raisin_black ] ]
