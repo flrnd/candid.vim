@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.5] - 2020-31-01
+
+### Feature
+
+- Improved color system. Now it is possible to customize colors.
+
 ## [0.4.5] - 2020-18-01
 
 ### Add
