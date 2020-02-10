@@ -1,6 +1,6 @@
-![candid.vim](https://github.com/flrnprz/candid.vim/blob/master/candid-screen.png)
-
 # candid.vim
+
+![candid.vim a dark color scheme for vim/neovim with vibrant colors](https://github.com/flrnprz/candid.vim/blob/master/candid-screen.png)
 
 A dark colorscheme with vibrant colors.
 
@@ -22,6 +22,7 @@ colorscheme candid
 " Lightline
 let g:lightline = { 'colorscheme': 'candid' }
 ```
+
 ## Color customization
 
 For color customization, declare the dictionary `g:candid_color_store` in your .vimrc / init.vim file before `colorscheme candid`:
@@ -40,6 +41,7 @@ colorscheme candid
 ```
 
 ## Color Palette
+
 | Color                                                                | Name             | Syntax     |
 -----------------------------------------------------------------------|------------------|------------|
 | ![#fb7da7](https://placehold.it/15/fb7da7/000000?text=+) **#FB7DA7** | **red** (_Tickle me pink_) | Statement|
