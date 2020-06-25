@@ -332,6 +332,9 @@ hi link typescriptCastKeyword          typescriptImport
 hi link typescriptDefault              typescriptImport
 " }}}
 
+" Rust {{{
+call <sid>hi('rustModPath', s:isabelline, s:none, 'none', {})
+" }}}
 " NERDTree {{{
 call <sid>hi('NERDTreeDir', s:sea_serpent, s:none, 'none', {})
 call <sid>hi('NERDTreeDirSlash', s:mustard, s:none, 'none', {})
