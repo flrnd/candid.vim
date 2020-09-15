@@ -92,9 +92,8 @@ call <sid>hi('WarningMsg', s:mustard, s:none, 'italic', {})
 call <sid>hi('Noise', s:mummys_tomb, s:none, 'none', {})
 call <sid>hi('NonText', s:mustard, s:none, 'none', {})
 call <sid>hi('Folded', s:mummys_tomb, s:none, 'none', {})
-call <sid>hi('IncSearch', s:mustard, s:raisin_black, 'reverse', {})
 call <sid>hi('Search', s:mustard, s:raisin_black, 'reverse', {})
-
+call <sid>hi('IncSearch', s:eucalyptus, s:raisin_black, 'reverse', {})
 call <sid>hi('Pmenu', s:isabelline, s:pale_black, 'none', {})
 call <sid>hi('PmenuSel', s:raisin_black, s:eucalyptus, 'none', {})
 
