@@ -44,7 +44,7 @@ colorscheme candid
 
 | Color                                                                | Name             | Syntax     |
 -----------------------------------------------------------------------|------------------|------------|
-| ![#fb7da7](https://via.placeholder.com/15/fb7da7/000000?text=+) **#FB7DA7** | **red** (_Tickle me pink_) | Statement|
+| ![#fb7da7](https://via.placeholder.com/15/fb7da7/) **#FB7DA7** | **red** (_Tickle me pink_) | Statement|
 | ![#a18bd3](https://via.placeholder.com/15/a18bd3/000000?text=+) **#A18BD3** | **purple** (_Blue bell_)      | Identifier, function |
 | ![#ffce5b](https://via.placeholder.com/15/ffce5b/000000?text=+) **#FFCE5B** | **yellow** (_Mustard_)        | String |
 | ![#50c6d8](https://via.placeholder.com/15/50c6d8/000000?text=+) **#50C6D8** | **cyan** (_Sea serpent_)    | Constant, Type |
